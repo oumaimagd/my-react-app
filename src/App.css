@@ -1,7 +1,46 @@
 .App {
   text-align: center;
+  width: 99%;
+}
+.title {
+  margin-left: -480px;
 }
 
+.logoJumia {
+  width: 120px;
+  height: 120px;
+  margin-left: 10%;
+}
+.bg-body-tertiary {
+  width: 100% !important;
+}
+.nav {
+  margin-top: -40px;
+}
+.search {
+  margin-left: 300px;
+  width: 600px;
+  z-index: 2;
+  position: relative;
+  height: 39px;
+}
+#inpute {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.btnSpecail {
+  width: 200px;
+  border-radius: 100px;
+  position: absolute;
+  margin-left: 450px;
+  z-index: -1;
+  border: none;
+  height: 39px;
+}
+#CiSearch {
+  margin-left: 130px;
+  font-size: 28px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +74,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+.horizontal-cards {
+  display: flex;
+  overflow-x: auto; /* Ajouter une barre de défilement horizontal si nécessaire */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style des cartes individuelles */
+.horizontal-cards .Card {
+  flex: 0 0 auto; /* Pour éviter que les cartes ne s'étendent */
+  width: 18rem;
+  margin-right: 10px;
+  display: flex;
+}
+.div1 {
+  background-color: #ff9900;
+  font-size: 14px;
+  height: 48px;
+  margin-left: 249px;
+  width: 1440px;
+  margin-top: 20px;
+}
+h3 {
+  margin-right: 1150px;
+}
+.img2 {
+  height: 250px;
+  width: 970px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.d-flex {
+  font-size: 14px;
+  background-color: #ffffff;
+  height: 40px;
+  width: 470px;
+  border: 1px solid #a3a3a6;
+  margin-left: 10%;
+}
+.form-control {
+  font-size: 14px;
+  background-color: #ffffff;
+  height: 40px;
+  width: 470px;
+  border: 1px solid #a3a3a6;
+}
+
+.button-rechercher {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #e07e1b;
+  border: none;
+  color: white;
+  width: 118px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+}
+
+.button-rechercher:hover {
+  background-color: #c56c17; /* Change color on hover */
 }
